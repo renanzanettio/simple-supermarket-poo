@@ -22,6 +22,7 @@ public class SimpleSupermarketPoo {
         }
         
         for (int i = 0; i < 3; i ++) {
+            System.out.println("--- DETALHES DO PRODUTO "+ i +" --- \n");
             products[i].details();
         }
     }

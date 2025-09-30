@@ -39,9 +39,8 @@ public class Product {
     }
     
     public void details() {
-        System.out.println( "--- DETALHES DO PRODUTO --- \n" 
-                + "Nome: " + name + "\n" 
-                + "Preco: " + price + "\n" 
+        System.out.println("Nome: " + name + "\n" 
+                + "Preco: R$" + price + "\n" 
                 + "Quantidade em estoque: " + stock + "\n" 
                 + "Codigo: " + code + "\n" 
                 + "---------------------------------");
